@@ -1,0 +1,36 @@
+# Google Cloud SDKs
+google-cloud-storage-transfer>=1.0.0
+google-cloud-storage>=2.0.0
+google-cloud-bigquery>=3.0.0
+google-cloud-aiplatform>=1.42.0
+vertexai>=1.0.0
+
+# AWS SDK (for public S3 access)
+boto3>=1.26.0
+botocore>=1.29.0
+
+# Data Processing
+xarray>=2023.1.0
+zarr>=2.13.0
+fsspec>=2023.1.0
+gcsfs>=2023.1.0
+pandas>=2.0.0
+pyarrow>=12.0.0
+numpy>=1.24.0
+python-dateutil>=2.8.0
+
+# Optional: Progress tracking
+tqdm>=4.65.0
+
+# Vertex AI Agent (optional - for AI agent with BigQuery tool use)
+rich>=13.0.0
+
+# API Service
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.3
+
+# Streamlit App
+streamlit>=1.31.0
+plotly>=5.18.0
+
